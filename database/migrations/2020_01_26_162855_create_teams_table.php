@@ -24,7 +24,7 @@ class CreateTeamsTable extends Migration {
 			$table->text('team_offset', 65535)->nullable();
 			$table->string('name_short', 60)->nullable();
 			$table->string('stadium_name', 80)->nullable();
-			$table->string('banderahex', 2)->nullable();
+			$table->unsignedInteger('flag_id')->nullable();
 			$table->string('name_long', 60)->nullable();
 			$table->string('capacity', 8)->nullable();
 			$table->string('standing_capacity', 6)->nullable();

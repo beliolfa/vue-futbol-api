@@ -13,7 +13,7 @@ class CreateTacticsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('tacticss', function(Blueprint $table)
+		Schema::create('tactics', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->string('name', 60)->nullable();

@@ -32,7 +32,7 @@ class CreatePlayersTable extends Migration {
 			$table->string('height', 10)->nullable();
 			$table->string('weight', 10)->nullable();
 			$table->string('birth_place', 250)->nullable();
-			$table->text('last_team_id')->nullable();
+			$table->text('last_team')->nullable();
 			$table->tinyInteger('speed')->nullable()->comment('VELocidad');
 			$table->tinyInteger('resistance')->nullable()->comment('RESistencia');
 			$table->tinyInteger('aggressiveness')->nullable()->comment('AGResividad');
